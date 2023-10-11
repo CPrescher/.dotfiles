@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+rm ~/.gitconfig
+ln -sr .gitconfig ../.gitconfig
+
+rm ~/.profile
+ln -sr .profile ../.profile
+
+rm ~/.bashrc 
+ln -sr .bashrc ../.bashrc
+
+rm ~/.tmux.conf
+ln -sr .tmux.conf ../.tmux.conf
